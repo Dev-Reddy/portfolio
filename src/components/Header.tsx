@@ -1,7 +1,7 @@
 import React from "react";
 // import { ProfileLinksBar } from "./custom/ProfileLinksBar";
 import Summary from "./custom/Summary";
-import { ProfileLinksAlternate } from "./custom/ProfileLinksAlternate";
+import { ProfileLinksAlternate } from "./custom/ProfileLinks";
 
 const Header = () => {
   return (
