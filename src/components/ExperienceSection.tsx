@@ -15,16 +15,18 @@ const experienceSectionItems: SubItem[] = [
       <div className="w-full">
         <div className="hidden md:block">
           <div className="flex flex-row justify-between w-full items-center">
-            <div className="text-xl">Auror | Indie Hacker</div>
+            <div className="text-xl">
+              <span className="font-bold">Auror</span> | Indie Hacker
+            </div>
             <div className="text-sm md:text-lg">Jul &apos;25 - Present</div>
           </div>
         </div>
         <div className="md:hidden flex flex-col">
           <div className="flex flex-row justify-between w-full items-center">
-            <div className="text-xl">Auror</div>
+            <div className="text-xl font-bold">Auror</div>
             <div className="text-sm md:text-lg">Jul &apos;25 - Present</div>
           </div>
-          <div className="text-lg font-bold">Indie Hacker</div>
+          <div className="text-lg">Indie Hacker</div>
         </div>
       </div>
     ),
@@ -47,7 +49,10 @@ const experienceSectionItems: SubItem[] = [
       <div className="w-full">
         <div className="hidden md:block">
           <div className="flex flex-row justify-between w-full items-center">
-            <div className="text-xl">Swayatt | Full Stack Developer Intern</div>
+            <div className="text-xl">
+              <span className="font-bold">Swayatt</span>| Full Stack Developer
+              Intern
+            </div>
             <div className="text-sm md:text-lg">
               Mar &apos;25 - Jun &apos;25
             </div>
@@ -55,12 +60,10 @@ const experienceSectionItems: SubItem[] = [
         </div>
         <div className="md:hidden flex flex-col">
           <div className="flex flex-row justify-between w-full items-center">
-            <div className="text-xl">Swayatt</div>
-            <div className="text-sm md:text-lg">
-              Mar &apos;25 - Jun &apos;25
-            </div>
+            <div className="text-xl font-bold">Swayatt</div>
+            <div className="text-sm">Mar &apos;25 - Jun &apos;25</div>
           </div>
-          <div className="text-lg font-bold">Full Stack Developer Intern</div>
+          <div className="text-lg">Full Stack Developer Intern</div>
         </div>
       </div>
     ),
