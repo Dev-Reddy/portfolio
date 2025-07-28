@@ -98,7 +98,8 @@ export const ContactMeForm = () => {
               <FormItem className="flex flex-row items-stretch gap-0 rounded-full">
                 <FormLabel
                   htmlFor="name"
-                  className="bg-neutral-800 text-white rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
+                  // className="bg-neutral-800 text-white rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
+                  className=" font-bold border border-neutral-300 rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
                 >
                   Name
                 </FormLabel>
@@ -124,7 +125,7 @@ export const ContactMeForm = () => {
               <FormItem className="flex flex-row items-stretch gap-0 rounded-full">
                 <FormLabel
                   htmlFor="email"
-                  className="bg-neutral-800 text-white rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
+                  className="bg-neutral-800 text-white font-bold rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
                 >
                   Email
                 </FormLabel>
@@ -151,7 +152,7 @@ export const ContactMeForm = () => {
               <FormItem className="flex flex-row items-stretch gap-0 rounded-full">
                 <FormLabel
                   htmlFor="subject"
-                  className="bg-neutral-800 text-white rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
+                  className=" border border-neutral-300 font-bold rounded-l-xl p-2 px-4 text-base flex items-center min-h-[48px] min-w-[100px] justify-center"
                 >
                   Subject
                 </FormLabel>
@@ -177,7 +178,7 @@ export const ContactMeForm = () => {
               <FormItem className="flex flex-row items-stretch gap-0 rounded-2xl">
                 <FormLabel
                   htmlFor="message"
-                  className="bg-neutral-800 text-white rounded-l-xl p-2 px-4 text-base flex items-center min-h-[120px] min-w-[100px] justify-center"
+                  className="bg-neutral-800 font-bold text-white rounded-l-xl p-2 px-4 text-base flex items-center min-h-[120px] min-w-[100px] justify-center"
                 >
                   Message
                 </FormLabel>
@@ -200,7 +201,7 @@ export const ContactMeForm = () => {
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="bg-neutral-800 cursor-pointer hover:bg-neutral-600 hover:scale-105 hover:font-medium text-white px-8 py-3 rounded-full font-medium transition-all duration-200 min-w-[160px] h-12 md:text-lg"
+              className="bg-neutral-800 cursor-pointer hover:bg-white hover:text-black hover:border-2 hover:border-neutral-800 hover:scale-105 text-white px-8 py-3 rounded-full font-bold transition-all duration-200 min-w-[160px] h-12 md:text-lg"
             >
               {isSubmitting ? "Sending..." : "Send Message"}
             </Button>
