@@ -38,7 +38,7 @@ export function MultiAccordionSection({ sectionTitle, items }: SectionProps) {
                   {item.content.map((point, i) => (
                     <div key={i}>
                       {typeof point === "string" ? (
-                        <p className="font-semibold">{point}</p>
+                        <p className="font-semibold text-justify">{point}</p>
                       ) : (
                         point
                       )}
