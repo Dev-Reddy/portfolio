@@ -1,7 +1,7 @@
 import React from "react";
 // import { ProfileLinksBar } from "./custom/ProfileLinksBar";
 import Summary from "./custom/Summary";
-import { ProfileLinksAlternate } from "./custom/ProfileLinks";
+import { ProfileLinks } from "./custom/ProfileLinks";
 
 const Header = () => {
   return (
@@ -13,8 +13,8 @@ const Header = () => {
       {/* <div className="mt-10">
         <ProfileLinksBar />
       </div> */}
-      <div className="mt-10">
-        <ProfileLinksAlternate />
+      <div className="mt-5 md:mt-11">
+        <ProfileLinks />
       </div>
       {/* Mobile Hamburger Menu */}
       {/* <div className="md:hidden mt-4 flex justify-center">
